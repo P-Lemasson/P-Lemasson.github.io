@@ -1,0 +1,167 @@
+/*CSS pour site perso;	*/
+
+
+/*Page home  _____________________________*/
+.Titrehome{
+	text-align: center;
+	text-decoration: underline;
+	font-style: italic;
+	color: black;
+}
+
+.descrihome {
+	text-align: center;
+	font-size: 1.15em;}
+
+.Portraithome {
+  display: block;
+  margin: 0px auto;
+  text-align: center;
+
+
+}
+
+/*Page CV  _____________________________*/
+
+
+.PageCV{
+	background-color: #fdf0d5 ;
+}
+
+.TitreCV {
+	font-weight: bolder;
+	text-align: center;
+	color: #003049;
+	font-style: italic;
+}
+
+#nom{
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+#age{
+	font-size: 1.3em;
+}
+
+.descriCV {
+	text-align: center;
+	font-size: 1.1em;
+}
+
+
+#teteCV{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	margin: 15px;
+	
+}
+.casePortraitCV{
+	padding-right: 3%;
+}
+.descriCV{
+	padding-left: 3%;
+
+}
+
+
+
+li strong {
+	font-weight: bold;
+	color: #c1121f;
+	font-style: italic;
+	text-decoration: underline;}
+
+#conteneur{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: 3em;
+}
+
+.part1{
+	border: solid;
+	border-color: #003049;
+	border-radius: 15px;
+	width: 35em;
+	padding: 1em;
+	margin-bottom:1em;
+	margin-top:1em;	
+}
+
+
+.part2{
+	border: solid;
+	border-color:  #003049;
+	border-radius: 15px;
+	width: 35em;
+	padding: 1em;
+	margin-top:1em;
+	margin-bottom:1em;
+}
+
+
+.part3{
+	border: solid;
+	border-color:  #003049;
+	border-radius: 15px;
+	padding: 1em;
+	margin-bottom: 1em;
+}
+
+
+
+.PortraitCV {
+  display: block;
+  margin: 0px auto;
+  text-align: center;
+
+}
+
+CV,h2 {
+	text-align: center;
+	color: #003049;
+}
+
+ul{list-style:none;}
+li::before {content: "\25AA";color: #003049;margin-right: 0.5em;}
+
+/*Les deux  _____________________________*/
+
+em {font-style: italic;}
+
+img{
+	box-shadow:8px 8px 10px 0 rgba(0,0,0,0.5);
+}
+
+.PortraitCV {
+     -webkit-transition: all 0.2s;
+     -moz-transition: all 0.2s;
+     -ms-transition: all 0.2s;
+     -o-transition: all 0.2s;
+     transition: all 0.2s;
+}
+.PortraitCV:hover {
+     border : 2px solid #000000;
+     box-shadow:8px 8px 10px 0 rgba(0,0,0,0.5);
+     filter: grayscale(25%);
+}
+
+body{
+	width: 90%;
+	margin: auto;
+}
+
+/*Affichage lien __________________*/
+
+.lien {
+	color:##003049 ;
+}
+.lien:hover{
+	color: ##003049 ;
+	font-weight: bold;
+}
+
+
